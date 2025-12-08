@@ -1,0 +1,209 @@
+{
+  "common": {
+    "loading": "Cargando...",
+    "submit": "Enviar",
+    "cancel": "Cancelar",
+    "save": "Guardar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "view": "Ver",
+    "export": "Exportar",
+    "search": "Buscar",
+    "filter": "Filtrar",
+    "back": "Volver",
+    "next": "Siguiente",
+    "previous": "Anterior",
+    "yes": "Sí",
+    "no": "No",
+    "required": "Obligatorio",
+    "optional": "Opcional",
+    "success": "¡Éxito!",
+    "error": "Error",
+    "close": "Cerrar"
+  },
+  "nav": {
+    "home": "Inicio",
+    "register": "Registro",
+    "training": "Formación",
+    "game": "Mini-Juego",
+    "admin": "Panel RH",
+    "login": "Iniciar Sesión",
+    "logout": "Cerrar Sesión",
+    "language": "Idioma"
+  },
+  "home": {
+    "hero": {
+      "title": "Dominando la Automatización y Microinteracciones",
+      "subtitle": "Transforma tu experiencia profesional con conocimientos prácticos en RPA, iPaaS y diseño de interacciones",
+      "cta": "Regístrate Ahora",
+      "learnMore": "Saber Más"
+    },
+    "features": {
+      "title": "Lo Que Aprenderás",
+      "automation": {
+        "title": "Automatización Inteligente",
+        "description": "Domina herramientas como n8n y Zapier para automatizar procesos"
+      },
+      "microinteractions": {
+        "title": "Microinteracciones",
+        "description": "Crea experiencias memorables con los 4 pilares del diseño de interacciones"
+      },
+      "practice": {
+        "title": "Práctica Gamificada",
+        "description": "Aplica tus conocimientos en el mini-juego interactivo"
+      }
+    }
+  },
+  "register": {
+    "title": "Formulario de Registro",
+    "subtitle": "Completa tus datos para participar en la formación",
+    "form": {
+      "fullName": "Nombre Completo",
+      "fullNamePlaceholder": "Introduce tu nombre completo",
+      "email": "Correo Corporativo",
+      "emailPlaceholder": "tu.correo@empresa.com",
+      "employeeId": "Número de Empleado",
+      "employeeIdPlaceholder": "Introduce tu número de empleado",
+      "department": "Departamento",
+      "departmentPlaceholder": "Selecciona tu departamento",
+      "departments": {
+        "ti": "TI",
+        "rh": "RRHH",
+        "marketing": "Marketing",
+        "comercial": "Comercial",
+        "financeiro": "Finanzas",
+        "outro": "Otro"
+      },
+      "familiarityLevel": "Nivel de Familiaridad",
+      "familiarityPlaceholder": "Selecciona tu nivel",
+      "familiarity": {
+        "low": "Bajo",
+        "medium": "Medio",
+        "high": "Alto"
+      },
+      "accessibility": "¿Necesitas Accesibilidad Especial?",
+      "accessibilityDetails": "Describe tus necesidades de accesibilidad",
+      "accessibilityPlaceholder": "Describe tus necesidades aquí...",
+      "observations": "Observaciones",
+      "observationsPlaceholder": "¿Alguna observación adicional?",
+      "participationDate": "Fecha de Participación",
+      "participationDatePlaceholder": "Selecciona una fecha"
+    },
+    "validation": {
+      "required": "Este campo es obligatorio",
+      "invalidEmail": "Correo inválido",
+      "invalidDomain": "Usa tu correo corporativo"
+    },
+    "success": {
+      "title": "¡Registro Completado!",
+      "message": "Recibirás un correo de confirmación pronto."
+    }
+  },
+  "training": {
+    "title": "Módulos de Formación",
+    "module1": {
+      "title": "Módulo 1 — Automatización",
+      "topics": {
+        "rpa": {
+          "title": "RPA (Automatización Robótica de Procesos)",
+          "description": "Automatiza tareas repetitivas con robots de software"
+        },
+        "ipaas": {
+          "title": "iPaaS (Plataforma de Integración como Servicio)",
+          "description": "Conecta sistemas y aplicaciones en la nube"
+        },
+        "tools": {
+          "title": "Herramientas: n8n y Zapier",
+          "description": "Practica con las principales plataformas de automatización"
+        },
+        "practices": {
+          "title": "Mejores Prácticas",
+          "description": "Implementa automatizaciones escalables y mantenibles"
+        }
+      }
+    },
+    "module2": {
+      "title": "Módulo 2 — Microinteracciones",
+      "topics": {
+        "pillars": {
+          "title": "Los 4 Pilares",
+          "description": "Disparador, Reglas, Feedback y Loops & Modos"
+        },
+        "examples": {
+          "title": "Ejemplos Prácticos",
+          "description": "Analiza microinteracciones en productos reales"
+        },
+        "practices": {
+          "title": "Mejores Prácticas",
+          "description": "Crea interacciones que deleiten a los usuarios"
+        }
+      }
+    }
+  },
+  "game": {
+    "title": "El Detective de Microinteracciones",
+    "subtitle": "Identifica errores de UX y prueba tus conocimientos",
+    "start": "Iniciar Juego",
+    "restart": "Jugar de Nuevo",
+    "question": "Pregunta",
+    "of": "de",
+    "score": "Puntuación",
+    "time": "Tiempo",
+    "correct": "¡Correcto!",
+    "incorrect": "¡Incorrecto!",
+    "explanation": "Explicación",
+    "nextQuestion": "Siguiente Pregunta",
+    "results": {
+      "title": "Resultado Final",
+      "score": "Tu puntuación",
+      "time": "Tiempo total",
+      "perfect": "¡Perfecto! ¡Eres un maestro de UX!",
+      "great": "¡Gran trabajo! ¡Sigue aprendiendo!",
+      "good": "¡Buen resultado! ¡Revisa los módulos para mejorar!",
+      "needsPractice": "¿Qué tal revisar la formación?"
+    }
+  },
+  "admin": {
+    "title": "Panel de RRHH",
+    "subtitle": "Gestiona los registros de formación",
+    "stats": {
+      "total": "Total de Registros",
+      "today": "Registrados Hoy",
+      "pending": "Pendientes",
+      "completed": "Completados"
+    },
+    "filters": {
+      "department": "Departamento",
+      "date": "Fecha",
+      "familiarity": "Familiaridad",
+      "accessibility": "Accesibilidad",
+      "all": "Todos"
+    },
+    "table": {
+      "name": "Nombre",
+      "email": "Correo",
+      "department": "Departamento",
+      "date": "Fecha",
+      "actions": "Acciones"
+    },
+    "logs": {
+      "title": "Logs de Auditoría",
+      "action": "Acción",
+      "user": "Usuario",
+      "timestamp": "Fecha/Hora",
+      "details": "Detalles"
+    },
+    "exportCSV": "Exportar CSV",
+    "confirmDelete": "¿Estás seguro de que quieres eliminar este registro?"
+  },
+  "accessibility": {
+    "widget": {
+      "title": "Opciones de Accesibilidad",
+      "fontSize": "Tamaño de Fuente",
+      "contrast": "Alto Contraste",
+      "reducedMotion": "Reducir Animaciones",
+      "screenReader": "Optimizado para Lector de Pantalla"
+    },
+    "skipToContent": "Saltar al contenido principal"
+  }
+}
