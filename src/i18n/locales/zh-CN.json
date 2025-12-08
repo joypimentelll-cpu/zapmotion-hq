@@ -1,0 +1,209 @@
+{
+  "common": {
+    "loading": "加载中...",
+    "submit": "提交",
+    "cancel": "取消",
+    "save": "保存",
+    "delete": "删除",
+    "edit": "编辑",
+    "view": "查看",
+    "export": "导出",
+    "search": "搜索",
+    "filter": "筛选",
+    "back": "返回",
+    "next": "下一步",
+    "previous": "上一步",
+    "yes": "是",
+    "no": "否",
+    "required": "必填",
+    "optional": "选填",
+    "success": "成功！",
+    "error": "错误",
+    "close": "关闭"
+  },
+  "nav": {
+    "home": "首页",
+    "register": "注册",
+    "training": "培训",
+    "game": "小游戏",
+    "admin": "人事面板",
+    "login": "登录",
+    "logout": "退出",
+    "language": "语言"
+  },
+  "home": {
+    "hero": {
+      "title": "掌握自动化和微交互",
+      "subtitle": "通过RPA、iPaaS和交互设计的实践知识转变您的职业经验",
+      "cta": "立即注册",
+      "learnMore": "了解更多"
+    },
+    "features": {
+      "title": "您将学到什么",
+      "automation": {
+        "title": "智能自动化",
+        "description": "掌握n8n和Zapier等工具来自动化流程"
+      },
+      "microinteractions": {
+        "title": "微交互",
+        "description": "用交互设计的4个支柱创造难忘的体验"
+      },
+      "practice": {
+        "title": "游戏化实践",
+        "description": "在互动小游戏中应用您的知识"
+      }
+    }
+  },
+  "register": {
+    "title": "注册表单",
+    "subtitle": "填写您的信息以参加培训",
+    "form": {
+      "fullName": "全名",
+      "fullNamePlaceholder": "输入您的全名",
+      "email": "企业邮箱",
+      "emailPlaceholder": "your.email@company.com",
+      "employeeId": "员工编号",
+      "employeeIdPlaceholder": "输入您的员工编号",
+      "department": "部门",
+      "departmentPlaceholder": "选择您的部门",
+      "departments": {
+        "ti": "IT",
+        "rh": "人事",
+        "marketing": "市场",
+        "comercial": "销售",
+        "financeiro": "财务",
+        "outro": "其他"
+      },
+      "familiarityLevel": "熟悉程度",
+      "familiarityPlaceholder": "选择您的级别",
+      "familiarity": {
+        "low": "低",
+        "medium": "中",
+        "high": "高"
+      },
+      "accessibility": "需要特殊无障碍支持吗？",
+      "accessibilityDetails": "描述您的无障碍需求",
+      "accessibilityPlaceholder": "在此描述您的需求...",
+      "observations": "备注",
+      "observationsPlaceholder": "有其他备注吗？",
+      "participationDate": "参与日期",
+      "participationDatePlaceholder": "选择日期"
+    },
+    "validation": {
+      "required": "此字段为必填",
+      "invalidEmail": "无效的邮箱",
+      "invalidDomain": "请使用企业邮箱"
+    },
+    "success": {
+      "title": "注册成功！",
+      "message": "您将很快收到确认邮件。"
+    }
+  },
+  "training": {
+    "title": "培训模块",
+    "module1": {
+      "title": "模块1 — 自动化",
+      "topics": {
+        "rpa": {
+          "title": "RPA（机器人流程自动化）",
+          "description": "使用软件机器人自动化重复性任务"
+        },
+        "ipaas": {
+          "title": "iPaaS（集成平台即服务）",
+          "description": "连接系统和云应用程序"
+        },
+        "tools": {
+          "title": "工具：n8n和Zapier",
+          "description": "在领先的自动化平台上实践"
+        },
+        "practices": {
+          "title": "最佳实践",
+          "description": "实施可扩展和可维护的自动化"
+        }
+      }
+    },
+    "module2": {
+      "title": "模块2 — 微交互",
+      "topics": {
+        "pillars": {
+          "title": "4个支柱",
+          "description": "触发器、规则、反馈和循环与模式"
+        },
+        "examples": {
+          "title": "实际案例",
+          "description": "分析真实产品中的微交互"
+        },
+        "practices": {
+          "title": "最佳实践",
+          "description": "创建让用户愉悦的交互"
+        }
+      }
+    }
+  },
+  "game": {
+    "title": "微交互侦探",
+    "subtitle": "识别UX错误并测试您的知识",
+    "start": "开始游戏",
+    "restart": "再玩一次",
+    "question": "问题",
+    "of": "/",
+    "score": "得分",
+    "time": "时间",
+    "correct": "正确！",
+    "incorrect": "错误！",
+    "explanation": "解释",
+    "nextQuestion": "下一题",
+    "results": {
+      "title": "最终结果",
+      "score": "您的得分",
+      "time": "总时间",
+      "perfect": "完美！您是UX大师！",
+      "great": "太棒了！继续学习！",
+      "good": "不错的结果！复习模块以提高！",
+      "needsPractice": "要不要复习一下培训内容？"
+    }
+  },
+  "admin": {
+    "title": "人事面板",
+    "subtitle": "管理培训注册",
+    "stats": {
+      "total": "总注册数",
+      "today": "今日注册",
+      "pending": "待处理",
+      "completed": "已完成"
+    },
+    "filters": {
+      "department": "部门",
+      "date": "日期",
+      "familiarity": "熟悉程度",
+      "accessibility": "无障碍",
+      "all": "全部"
+    },
+    "table": {
+      "name": "姓名",
+      "email": "邮箱",
+      "department": "部门",
+      "date": "日期",
+      "actions": "操作"
+    },
+    "logs": {
+      "title": "审计日志",
+      "action": "操作",
+      "user": "用户",
+      "timestamp": "时间戳",
+      "details": "详情"
+    },
+    "exportCSV": "导出CSV",
+    "confirmDelete": "确定要删除此记录吗？"
+  },
+  "accessibility": {
+    "widget": {
+      "title": "无障碍选项",
+      "fontSize": "字体大小",
+      "contrast": "高对比度",
+      "reducedMotion": "减少动画",
+      "screenReader": "屏幕阅读器优化"
+    },
+    "skipToContent": "跳至主要内容"
+  }
+}

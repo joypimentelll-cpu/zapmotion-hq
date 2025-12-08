@@ -1,0 +1,209 @@
+{
+  "common": {
+    "loading": "読み込み中...",
+    "submit": "送信",
+    "cancel": "キャンセル",
+    "save": "保存",
+    "delete": "削除",
+    "edit": "編集",
+    "view": "表示",
+    "export": "エクスポート",
+    "search": "検索",
+    "filter": "フィルター",
+    "back": "戻る",
+    "next": "次へ",
+    "previous": "前へ",
+    "yes": "はい",
+    "no": "いいえ",
+    "required": "必須",
+    "optional": "任意",
+    "success": "成功！",
+    "error": "エラー",
+    "close": "閉じる"
+  },
+  "nav": {
+    "home": "ホーム",
+    "register": "登録",
+    "training": "トレーニング",
+    "game": "ミニゲーム",
+    "admin": "人事パネル",
+    "login": "ログイン",
+    "logout": "ログアウト",
+    "language": "言語"
+  },
+  "home": {
+    "hero": {
+      "title": "自動化とマイクロインタラクションをマスター",
+      "subtitle": "RPA、iPaaS、インタラクションデザインの実践的な知識でプロフェッショナルな経験を変革",
+      "cta": "今すぐ登録",
+      "learnMore": "詳細を見る"
+    },
+    "features": {
+      "title": "学べること",
+      "automation": {
+        "title": "スマート自動化",
+        "description": "n8nやZapierなどのツールでプロセスを自動化"
+      },
+      "microinteractions": {
+        "title": "マイクロインタラクション",
+        "description": "インタラクションデザインの4つの柱で記憶に残る体験を創造"
+      },
+      "practice": {
+        "title": "ゲーミフィケーション学習",
+        "description": "インタラクティブなミニゲームで知識を応用"
+      }
+    }
+  },
+  "register": {
+    "title": "登録フォーム",
+    "subtitle": "トレーニングに参加するための情報を入力してください",
+    "form": {
+      "fullName": "氏名",
+      "fullNamePlaceholder": "氏名を入力してください",
+      "email": "会社メール",
+      "emailPlaceholder": "your.email@company.com",
+      "employeeId": "社員番号",
+      "employeeIdPlaceholder": "社員番号を入力してください",
+      "department": "部署",
+      "departmentPlaceholder": "部署を選択してください",
+      "departments": {
+        "ti": "IT",
+        "rh": "人事",
+        "marketing": "マーケティング",
+        "comercial": "営業",
+        "financeiro": "財務",
+        "outro": "その他"
+      },
+      "familiarityLevel": "習熟度",
+      "familiarityPlaceholder": "レベルを選択してください",
+      "familiarity": {
+        "low": "低い",
+        "medium": "中程度",
+        "high": "高い"
+      },
+      "accessibility": "特別なアクセシビリティが必要ですか？",
+      "accessibilityDetails": "アクセシビリティのニーズを説明してください",
+      "accessibilityPlaceholder": "ニーズをここに記入してください...",
+      "observations": "備考",
+      "observationsPlaceholder": "追加の備考はありますか？",
+      "participationDate": "参加日",
+      "participationDatePlaceholder": "日付を選択してください"
+    },
+    "validation": {
+      "required": "この項目は必須です",
+      "invalidEmail": "無効なメールアドレス",
+      "invalidDomain": "会社のメールアドレスを使用してください"
+    },
+    "success": {
+      "title": "登録完了！",
+      "message": "まもなく確認メールが届きます。"
+    }
+  },
+  "training": {
+    "title": "トレーニングモジュール",
+    "module1": {
+      "title": "モジュール1 — 自動化",
+      "topics": {
+        "rpa": {
+          "title": "RPA（ロボティック・プロセス・オートメーション）",
+          "description": "ソフトウェアロボットで繰り返し作業を自動化"
+        },
+        "ipaas": {
+          "title": "iPaaS（インテグレーション・プラットフォーム・アズ・ア・サービス）",
+          "description": "システムとクラウドアプリケーションを接続"
+        },
+        "tools": {
+          "title": "ツール：n8nとZapier",
+          "description": "主要な自動化プラットフォームで実践"
+        },
+        "practices": {
+          "title": "ベストプラクティス",
+          "description": "スケーラブルで保守可能な自動化を実装"
+        }
+      }
+    },
+    "module2": {
+      "title": "モジュール2 — マイクロインタラクション",
+      "topics": {
+        "pillars": {
+          "title": "4つの柱",
+          "description": "トリガー、ルール、フィードバック、ループ＆モード"
+        },
+        "examples": {
+          "title": "実践例",
+          "description": "実際の製品でマイクロインタラクションを分析"
+        },
+        "practices": {
+          "title": "ベストプラクティス",
+          "description": "ユーザーを喜ばせるインタラクションを作成"
+        }
+      }
+    }
+  },
+  "game": {
+    "title": "マイクロインタラクション探偵",
+    "subtitle": "UXエラーを特定して知識をテスト",
+    "start": "ゲームを開始",
+    "restart": "もう一度プレイ",
+    "question": "質問",
+    "of": "/",
+    "score": "スコア",
+    "time": "時間",
+    "correct": "正解！",
+    "incorrect": "不正解！",
+    "explanation": "解説",
+    "nextQuestion": "次の質問",
+    "results": {
+      "title": "最終結果",
+      "score": "あなたのスコア",
+      "time": "合計時間",
+      "perfect": "完璧！あなたはUXマスターです！",
+      "great": "素晴らしい！学び続けましょう！",
+      "good": "良い結果！モジュールを復習して改善しましょう！",
+      "needsPractice": "トレーニングを見直してみませんか？"
+    }
+  },
+  "admin": {
+    "title": "人事パネル",
+    "subtitle": "トレーニング登録を管理",
+    "stats": {
+      "total": "総登録数",
+      "today": "本日の登録",
+      "pending": "保留中",
+      "completed": "完了"
+    },
+    "filters": {
+      "department": "部署",
+      "date": "日付",
+      "familiarity": "習熟度",
+      "accessibility": "アクセシビリティ",
+      "all": "すべて"
+    },
+    "table": {
+      "name": "氏名",
+      "email": "メール",
+      "department": "部署",
+      "date": "日付",
+      "actions": "アクション"
+    },
+    "logs": {
+      "title": "監査ログ",
+      "action": "アクション",
+      "user": "ユーザー",
+      "timestamp": "日時",
+      "details": "詳細"
+    },
+    "exportCSV": "CSVエクスポート",
+    "confirmDelete": "このレコードを削除してもよろしいですか？"
+  },
+  "accessibility": {
+    "widget": {
+      "title": "アクセシビリティオプション",
+      "fontSize": "フォントサイズ",
+      "contrast": "ハイコントラスト",
+      "reducedMotion": "アニメーションを減らす",
+      "screenReader": "スクリーンリーダー最適化"
+    },
+    "skipToContent": "メインコンテンツにスキップ"
+  }
+}

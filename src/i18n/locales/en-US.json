@@ -1,0 +1,209 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "view": "View",
+    "export": "Export",
+    "search": "Search",
+    "filter": "Filter",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "yes": "Yes",
+    "no": "No",
+    "required": "Required",
+    "optional": "Optional",
+    "success": "Success!",
+    "error": "Error",
+    "close": "Close"
+  },
+  "nav": {
+    "home": "Home",
+    "register": "Register",
+    "training": "Training",
+    "game": "Mini-Game",
+    "admin": "HR Panel",
+    "login": "Login",
+    "logout": "Logout",
+    "language": "Language"
+  },
+  "home": {
+    "hero": {
+      "title": "Mastering Automation and Microinteractions",
+      "subtitle": "Transform your professional experience with practical knowledge in RPA, iPaaS, and interaction design",
+      "cta": "Register Now",
+      "learnMore": "Learn More"
+    },
+    "features": {
+      "title": "What You'll Learn",
+      "automation": {
+        "title": "Smart Automation",
+        "description": "Master tools like n8n and Zapier to automate processes"
+      },
+      "microinteractions": {
+        "title": "Microinteractions",
+        "description": "Create memorable experiences with the 4 pillars of interaction design"
+      },
+      "practice": {
+        "title": "Gamified Practice",
+        "description": "Apply your knowledge in the interactive mini-game"
+      }
+    }
+  },
+  "register": {
+    "title": "Registration Form",
+    "subtitle": "Fill in your details to participate in the training",
+    "form": {
+      "fullName": "Full Name",
+      "fullNamePlaceholder": "Enter your full name",
+      "email": "Corporate Email",
+      "emailPlaceholder": "your.email@company.com",
+      "employeeId": "Employee ID",
+      "employeeIdPlaceholder": "Enter your employee ID",
+      "department": "Department",
+      "departmentPlaceholder": "Select your department",
+      "departments": {
+        "ti": "IT",
+        "rh": "HR",
+        "marketing": "Marketing",
+        "comercial": "Sales",
+        "financeiro": "Finance",
+        "outro": "Other"
+      },
+      "familiarityLevel": "Familiarity Level",
+      "familiarityPlaceholder": "Select your level",
+      "familiarity": {
+        "low": "Low",
+        "medium": "Medium",
+        "high": "High"
+      },
+      "accessibility": "Need Special Accessibility?",
+      "accessibilityDetails": "Describe your accessibility needs",
+      "accessibilityPlaceholder": "Describe your needs here...",
+      "observations": "Observations",
+      "observationsPlaceholder": "Any additional observations?",
+      "participationDate": "Participation Date",
+      "participationDatePlaceholder": "Select a date"
+    },
+    "validation": {
+      "required": "This field is required",
+      "invalidEmail": "Invalid email",
+      "invalidDomain": "Use your corporate email"
+    },
+    "success": {
+      "title": "Registration Complete!",
+      "message": "You will receive a confirmation email soon."
+    }
+  },
+  "training": {
+    "title": "Training Modules",
+    "module1": {
+      "title": "Module 1 — Automation",
+      "topics": {
+        "rpa": {
+          "title": "RPA (Robotic Process Automation)",
+          "description": "Automate repetitive tasks with software robots"
+        },
+        "ipaas": {
+          "title": "iPaaS (Integration Platform as a Service)",
+          "description": "Connect systems and cloud applications"
+        },
+        "tools": {
+          "title": "Tools: n8n and Zapier",
+          "description": "Practice with leading automation platforms"
+        },
+        "practices": {
+          "title": "Best Practices",
+          "description": "Implement scalable and maintainable automations"
+        }
+      }
+    },
+    "module2": {
+      "title": "Module 2 — Microinteractions",
+      "topics": {
+        "pillars": {
+          "title": "The 4 Pillars",
+          "description": "Trigger, Rules, Feedback, and Loops & Modes"
+        },
+        "examples": {
+          "title": "Practical Examples",
+          "description": "Analyze microinteractions in real products"
+        },
+        "practices": {
+          "title": "Best Practices",
+          "description": "Create interactions that delight users"
+        }
+      }
+    }
+  },
+  "game": {
+    "title": "The Microinteraction Detective",
+    "subtitle": "Identify UX errors and test your knowledge",
+    "start": "Start Game",
+    "restart": "Play Again",
+    "question": "Question",
+    "of": "of",
+    "score": "Score",
+    "time": "Time",
+    "correct": "Correct!",
+    "incorrect": "Incorrect!",
+    "explanation": "Explanation",
+    "nextQuestion": "Next Question",
+    "results": {
+      "title": "Final Result",
+      "score": "Your score",
+      "time": "Total time",
+      "perfect": "Perfect! You're a UX master!",
+      "great": "Great job! Keep learning!",
+      "good": "Good result! Review the modules to improve!",
+      "needsPractice": "How about reviewing the training?"
+    }
+  },
+  "admin": {
+    "title": "HR Panel",
+    "subtitle": "Manage training registrations",
+    "stats": {
+      "total": "Total Registrations",
+      "today": "Registered Today",
+      "pending": "Pending",
+      "completed": "Completed"
+    },
+    "filters": {
+      "department": "Department",
+      "date": "Date",
+      "familiarity": "Familiarity",
+      "accessibility": "Accessibility",
+      "all": "All"
+    },
+    "table": {
+      "name": "Name",
+      "email": "Email",
+      "department": "Department",
+      "date": "Date",
+      "actions": "Actions"
+    },
+    "logs": {
+      "title": "Audit Logs",
+      "action": "Action",
+      "user": "User",
+      "timestamp": "Timestamp",
+      "details": "Details"
+    },
+    "exportCSV": "Export CSV",
+    "confirmDelete": "Are you sure you want to delete this record?"
+  },
+  "accessibility": {
+    "widget": {
+      "title": "Accessibility Options",
+      "fontSize": "Font Size",
+      "contrast": "High Contrast",
+      "reducedMotion": "Reduce Animations",
+      "screenReader": "Screen Reader Optimized"
+    },
+    "skipToContent": "Skip to main content"
+  }
+}
