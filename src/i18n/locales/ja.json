@@ -196,6 +196,20 @@
     "exportCSV": "CSVエクスポート",
     "confirmDelete": "このレコードを削除してもよろしいですか？"
   },
+  "auth": {
+    "title": "システムアクセス",
+    "subtitle": "ログインまたはアカウントを作成して続行",
+    "login": "ログイン",
+    "signup": "登録",
+    "email": "メールアドレス",
+    "password": "パスワード",
+    "confirmPassword": "パスワード確認",
+    "fullName": "氏名",
+    "employeeId": "社員番号",
+    "loginButton": "ログイン",
+    "signupButton": "アカウント作成",
+    "forgotPassword": "パスワードをお忘れですか？"
+  },
   "accessibility": {
     "widget": {
       "title": "アクセシビリティオプション",
