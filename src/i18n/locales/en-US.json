@@ -196,6 +196,20 @@
     "exportCSV": "Export CSV",
     "confirmDelete": "Are you sure you want to delete this record?"
   },
+  "auth": {
+    "title": "System Access",
+    "subtitle": "Login or create your account to continue",
+    "login": "Login",
+    "signup": "Sign Up",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "fullName": "Full Name",
+    "employeeId": "Employee ID",
+    "loginButton": "Login",
+    "signupButton": "Create Account",
+    "forgotPassword": "Forgot password?"
+  },
   "accessibility": {
     "widget": {
       "title": "Accessibility Options",

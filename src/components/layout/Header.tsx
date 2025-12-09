@@ -1,30 +1,39 @@
 import React, { useState } from 'react';
-import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, Globe, Zap } from 'lucide-react';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
+import { Menu, X, Globe, Zap, LogIn, LogOut, User } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
+  DropdownMenuSeparator,
 } from '@/components/ui/dropdown-menu';
 import { useI18n, Locale, localeNames, localeFlags } from '@/i18n';
+import { useAuth } from '@/context/AuthContext';
 import { cn } from '@/lib/utils';
 
 export function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const { t, locale, setLocale } = useI18n();
+  const { user, isAdmin, signOut } = useAuth();
   const location = useLocation();
+  const navigate = useNavigate();
 
   const navItems = [
-    { path: '/', label: t('nav.home') },
-    { path: '/register', label: t('nav.register') },
-    { path: '/training', label: t('nav.training') },
-    { path: '/game', label: t('nav.game') },
-    { path: '/admin', label: t('nav.admin') },
+    { path: '/', label: t('nav.home'), public: true },
+    { path: '/register', label: t('nav.register'), public: false },
+    { path: '/training', label: t('nav.training'), public: false },
+    { path: '/game', label: t('nav.game'), public: false },
+    ...(isAdmin ? [{ path: '/admin', label: t('nav.admin'), public: false }] : []),
   ];
 
   const isActive = (path: string) => location.pathname === path;
+
+  const handleSignOut = async () => {
+    await signOut();
+    navigate('/');
+  };
 
   return (
     <header className="sticky top-0 z-50 w-full glass border-b border-border/50" role="banner">
@@ -70,8 +79,9 @@ export function Header() {
             ))}
           </nav>
 
-          {/* Language Selector & Mobile Menu */}
+          {/* Language Selector, Auth & Mobile Menu */}
           <div className="flex items-center gap-2">
+            {/* Language Selector */}
             <DropdownMenu>
               <DropdownMenuTrigger asChild>
                 <Button variant="ghost" size="sm" className="gap-2" aria-label={t('nav.language')}>
@@ -95,6 +105,37 @@ export function Header() {
                 ))}
               </DropdownMenuContent>
             </DropdownMenu>
+
+            {/* Auth Button */}
+            {user ? (
+              <DropdownMenu>
+                <DropdownMenuTrigger asChild>
+                  <Button variant="ghost" size="sm" className="gap-2">
+                    <User className="h-4 w-4" />
+                    <span className="hidden sm:inline max-w-[100px] truncate">
+                      {user.email?.split('@')[0]}
+                    </span>
+                  </Button>
+                </DropdownMenuTrigger>
+                <DropdownMenuContent align="end" className="w-48">
+                  <DropdownMenuItem disabled className="text-xs text-muted-foreground">
+                    {user.email}
+                  </DropdownMenuItem>
+                  <DropdownMenuSeparator />
+                  <DropdownMenuItem onClick={handleSignOut} className="gap-2 cursor-pointer text-destructive">
+                    <LogOut className="h-4 w-4" />
+                    {t('nav.logout')}
+                  </DropdownMenuItem>
+                </DropdownMenuContent>
+              </DropdownMenu>
+            ) : (
+              <Button variant="secondary" size="sm" asChild className="gap-2">
+                <Link to="/auth">
+                  <LogIn className="h-4 w-4" />
+                  <span className="hidden sm:inline">{t('nav.login')}</span>
+                </Link>
+              </Button>
+            )}
 
             {/* Mobile Menu Button */}
             <Button
@@ -136,6 +177,30 @@ export function Header() {
                   {item.label}
                 </Link>
               ))}
+              
+              {!user && (
+                <Link
+                  to="/auth"
+                  onClick={() => setMobileMenuOpen(false)}
+                  className="px-4 py-3 rounded-lg text-sm font-medium text-primary hover:bg-accent flex items-center gap-2"
+                >
+                  <LogIn className="h-4 w-4" />
+                  {t('nav.login')}
+                </Link>
+              )}
+              
+              {user && (
+                <button
+                  onClick={() => {
+                    handleSignOut();
+                    setMobileMenuOpen(false);
+                  }}
+                  className="px-4 py-3 rounded-lg text-sm font-medium text-destructive hover:bg-accent flex items-center gap-2 text-left"
+                >
+                  <LogOut className="h-4 w-4" />
+                  {t('nav.logout')}
+                </button>
+              )}
             </div>
           </nav>
         )}

@@ -196,6 +196,20 @@
     "exportCSV": "Exportar CSV",
     "confirmDelete": "¿Estás seguro de que quieres eliminar este registro?"
   },
+  "auth": {
+    "title": "Acceso al Sistema",
+    "subtitle": "Inicia sesión o crea tu cuenta para continuar",
+    "login": "Iniciar Sesión",
+    "signup": "Registrarse",
+    "email": "Correo Electrónico",
+    "password": "Contraseña",
+    "confirmPassword": "Confirmar Contraseña",
+    "fullName": "Nombre Completo",
+    "employeeId": "Número de Empleado",
+    "loginButton": "Iniciar Sesión",
+    "signupButton": "Crear Cuenta",
+    "forgotPassword": "¿Olvidaste tu contraseña?"
+  },
   "accessibility": {
     "widget": {
       "title": "Opciones de Accesibilidad",

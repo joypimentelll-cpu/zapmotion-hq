@@ -196,6 +196,20 @@
     "exportCSV": "导出CSV",
     "confirmDelete": "确定要删除此记录吗？"
   },
+  "auth": {
+    "title": "系统访问",
+    "subtitle": "登录或创建账户以继续",
+    "login": "登录",
+    "signup": "注册",
+    "email": "邮箱",
+    "password": "密码",
+    "confirmPassword": "确认密码",
+    "fullName": "全名",
+    "employeeId": "员工编号",
+    "loginButton": "登录",
+    "signupButton": "创建账户",
+    "forgotPassword": "忘记密码？"
+  },
   "accessibility": {
     "widget": {
       "title": "无障碍选项",
